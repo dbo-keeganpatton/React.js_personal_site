@@ -1,17 +1,59 @@
+
+
+/* Main App Style and Nerd Font Config */
 .App {
+  display: flex;
+  padding: 0px;
+  position: relative;
+  height: 100vh; 
   width: 100vw;
-  height: 100vh;
+  margin: 0;
+}
+
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont';
+	src: url('../public/fonts/CascadiaCode(1)/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
 }
 
 
+
+/* Here we are! */
 body {
 	margin: 0;
 	padding: 0;
+	background: black;
+	background-size: cover;
 }
 
 
-.Sidebar {
-	height: 100%;
-	width: 300px;
-	background-color: blueviolet;
+.top-left-border {
+	position: fixed;
+	width: 1000px;
+	height: 1000px;
+	bottom: 30%;
 }
+
+.bottom-right-border {
+	position: fixed;
+	width: 1000px;
+	height: 1000px;
+	top: 20%;
+	left: 35%;
+}
+
+.bio-line {
+	position: absolute;
+}
+
+
+.typewriter {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 14px;
+	position: absolute;
+	left: 18%;
+	top: 13%;
+	color: white;
+}
+
