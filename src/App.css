@@ -4,9 +4,7 @@
 .App {
   display: flex;
   padding: 0px;
-  position: relative;
-  height: 100vh; 
-  width: 100vw;
+  position: fixed;
   margin: 0;
 }
 
@@ -29,31 +27,61 @@ body {
 
 
 .top-left-border {
-	position: fixed;
-	width: 1000px;
+	position: relative;
+	width: 1500px;
 	height: 1000px;
-	bottom: 30%;
+	bottom: 260px;
+	right: 400px;
 }
 
 .bottom-right-border {
-	position: fixed;
-	width: 1000px;
+	position: relative;
+	width: 1500px;
 	height: 1000px;
-	top: 20%;
-	left: 35%;
+	top: 180px;
+	right: 400px;
 }
 
-.bio-line {
+.projects-border {
 	position: absolute;
+	width: 600px;
+	height: 300px;
+	top: 200px;
+	left: 900px;
 }
+
+.projects-header {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 27px;
+	color: white;
+	top: 260px;
+	left: 1140px;
+}
+
 
 
 .typewriter {
 	font-family: 'CaskaydiaCoveNerdFont';
 	font-size: 14px;
 	position: absolute;
-	left: 18%;
-	top: 13%;
+	left: 90px;
+	top: 70px;
 	color: white;
+}
+
+
+.vignette {
+	position: absolute;
+	width: 200px;
+	height: 150px;
+	top: 160px;
+	left: 90px;
+	background-image: url('./assets/family.jpg');
+	background-size: cover;
+	background-position: center center;
+	padding: 150px 200px;
+	box-sizing: border-box;
+	box-shadow: inset 0 0 50px 60px black;
 }
 
