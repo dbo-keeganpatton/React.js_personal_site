@@ -34,6 +34,8 @@ body {
 	right: 400px;
 }
 
+
+/* Basic Border structure */
 .bottom-right-border {
 	position: relative;
 	width: 1500px;
@@ -71,17 +73,42 @@ body {
 }
 
 
-.vignette {
+/* Links */
+.github-link {
 	position: absolute;
-	width: 200px;
-	height: 150px;
-	top: 160px;
-	left: 90px;
-	background-image: url('./assets/family.jpg');
-	background-size: cover;
-	background-position: center center;
-	padding: 150px 200px;
-	box-sizing: border-box;
-	box-shadow: inset 0 0 50px 60px black;
+	height: 30px;
+	width: 30px;
+	right: 1250px;
+	top: 70px;
+	
+}
+
+.linkedin-link {
+	position: absolute;
+	height: 43px;
+	width: 43px;
+	right: 1300px;
+	top: 65px;
+	
+}
+
+
+/* bio */
+.bio-header {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 50px;
+	position: absolute;
+	left: 140px;
+	top: 260px;
+	color: #9f73ab;
+}
+
+.bio-text {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 18px;
+	position: absolute;
+	left: 140px;
+	top: 350px;
+	color: white;
 }
 
