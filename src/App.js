@@ -1,6 +1,6 @@
 import React from 'react';
 import { StrictMode } from 'react';
-import './App.css';
+import './MainPage.css';
 import AppRoutes from "./Routes"; 
 
 

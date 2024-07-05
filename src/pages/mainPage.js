@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriters from "../components/typewriter.js";
-import '../App.css';
+import '../MainPage.css';
 
 // Image Asset Imports
 import topCorner from "../assets/corner.svg"
