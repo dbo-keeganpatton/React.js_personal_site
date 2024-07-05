@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-import "../ContactForm.css";
+import "./ContactForm.css";
 
 
 

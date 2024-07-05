@@ -1,6 +1,6 @@
 import React from 'react';
 import Typewriters from "../components/typewriter.js";
-import '../MainPage.css';
+import './MainPage.css';
 import { Link } from 'react-router-dom';
 
 

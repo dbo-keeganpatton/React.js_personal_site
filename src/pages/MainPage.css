@@ -14,7 +14,7 @@ App {
 
 @font-face {
 	font-family: 'CaskaydiaCoveNerdFont';
-	src: url('../public/fonts/CascadiaCode(1)/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
+	src: url('../../public/fonts/CascadiaCode(1)/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
 	font-weight: lighter;
 	font-style: normal;
 }
