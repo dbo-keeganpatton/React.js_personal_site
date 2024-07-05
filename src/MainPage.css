@@ -107,6 +107,16 @@ body {
 	left: 60rem;
 
 }
+
+	.mail-link {
+		position: absolute;
+		height: 35.5%;
+		width: auto;
+		left: -2.4rem;
+		top: 1.0rem;
+		
+	}
+
 	.github-link {
 		position: absolute;
 		height: 25%;

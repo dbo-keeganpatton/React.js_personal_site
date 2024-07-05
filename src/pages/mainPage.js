@@ -1,6 +1,8 @@
 import React from 'react';
 import Typewriters from "../components/typewriter.js";
 import '../MainPage.css';
+import { Link } from 'react-router-dom';
+
 
 // Image Asset Imports
 import topCorner from "../assets/corner.svg"
@@ -9,6 +11,7 @@ import bioLine from "../assets/center_bio_line.svg"
 import projectsCorner from "../assets/projects_border.svg"
 import gitHubIcon from "../assets/gitHub.svg"
 import linkedInIcon from "../assets/linkedin.svg"
+import webMailIcon from "../assets/mail.svg"
 
 
 function MainPage() {
@@ -25,6 +28,9 @@ function MainPage() {
 				{/* Social Media Link section*/}
 			
 				<div className='links-container'>
+					<Link to="/contact">
+						<img src={webMailIcon} alt="" className='mail-link'/>
+					</Link>
 					<a href="https://github.com/dbo-keeganpatton" target="_blank" rel="noreferrer">
 						<img src={gitHubIcon} alt="github" className="github-link"/>
 					</a>
