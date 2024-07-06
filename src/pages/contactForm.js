@@ -2,7 +2,13 @@ import { useForm } from 'react-hook-form';
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
 import "./ContactForm.css";
+import { Link } from 'react-router-dom';
 
+
+// Image Asset Imports 
+import topCorner from "../assets/corner.svg"
+import bottomCorner from "../assets/bottom_right_corner.svg"
+import returnArrow from "../assets/return.svg"
 
 
 const ContactForm = () => {
@@ -60,7 +66,14 @@ const ContactForm = () => {
 
 	return (
         <div className='body'>
-            <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+			
+			<img src={topCorner} alt="hello" className="top-left-border"/>
+			
+			<Link to="/">
+				<img src={returnArrow} alt="hello" className="return-arrow"/>
+			</Link>
+
+			<form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {alertInfo.display && (
                     <div className={`alert alert-${alertInfo.type} alert-dismissible`} role='alert'>
                         {alertInfo.message}
@@ -134,6 +147,9 @@ const ContactForm = () => {
                     Submit
                 </button>
             </form>
+
+			<img src={bottomCorner} alt="yes" className="bottom-right-border"/>
+
         </div>
     );
 };
