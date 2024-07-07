@@ -1,15 +1,17 @@
+/***********************************************************************
+						Styles for Desktop 
+***********************************************************************/
+@media (min-width: 1024px) {
+ 
 
-/******************************
-	  App Style and Fonts 
-******************************/
 App {
 	display: flex;
 	padding: 0px;
 	position: absolute;
 	margin: 0;
 	flex-direction: column;
-	height: 100vh;
-	width: 100vw;
+	height: 100%;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -23,318 +25,444 @@ App {
 body {
 	margin: 0;
 	padding: 0;
-	background: black;
+	max-width: 100%;
+	overflow-x: hidden;
+	background: #1b2430;
 	background-size: cover;
 }
+
+
 
 /******************************
    Top left Border Container 
 ******************************/
 .top-left-container {
 	position: absolute;
-	width: 100rem;
-	height: 100rem;
-	top: 1rem;
-	left: 1rem;
+	width: 100%;
+	height: 100%;
+	top: 0rem;
+	left: 0rem;
 }
 
 .top-left-border {
 	position: absolute;
-	width: 5%;
+	width: 10%;
 	height: auto;
-	top: 1rem;
-	left: 1rem;
+	top: 1.0rem;
+	left: 1.0rem;
 }
 
 .typewriter {
 	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 10px;
+	font-size: 14px;
 	position: absolute;
-	left: 4rem;
-	top: 3rem;
+	left: 4.0rem;
+	top: 3.0rem;
 	color: white;
 }
+
+
 
 /******************************
 		     Bio
 ******************************/
 .bio-container {
 	position: absolute;
-	width: 50rem;
-	height: 70rem;
-	top: 9.5rem;
-	left: 5rem;
+	width: 50%;
+	height: 50%;
+	top: 11rem;
+	left: 0rem;
+
 }
 
-.bio-header {
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 50px;
-	position: absolute;
-	color: #9f73ab;
-}
+	.bio-header {
+		font-family: 'CaskaydiaCoveNerdFont';
+		font-size: 60px;
+		position: absolute;
+		color: #9f73ab;
+		left: 5rem;
+	}
 
-.bio-text {
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 13px;
-	position: absolute;
-	color: white;
-	top: 4.8rem;
-	left: 0.5rem;
-}
+	.bio-text {
+		font-family: 'CaskaydiaCoveNerdFont';
+		font-size: 18px;
+		position: absolute;
+		color: white;
+		top: 6rem;
+		left: 5rem;
+	}
 
-.bio-line {
-	position: absolute;
-	height: 22%;
-	width: auto;
-	right: 36.2rem;
-	top: 0.5rem;
-}
+	.bio-line {
+		position: absolute;
+		height: 30%;
+		width: 10%;
+		left: 2.0rem;
+		top: 7.5rem;
+	}
+
+
 
 /******************************
 		 Social Links
 ******************************/
 .links-container {
 	position: absolute;
-	width: 5rem;
-	height: 5rem;
-	top: 3rem;
-	left: 60rem;
+	width: 15%;
+	height: 15%;
+	top: 0rem;
+	right: 0rem;
+
 }
 
-.mail-link {
-	position: absolute;
-	height: 35.5%;
-	width: auto;
-	left: -2.4rem;
-	top: 1rem;
-}
+	.mail-link {
+		position: absolute;
+		height: 50%;
+		width: auto;
+		right: 10rem;
+		top: 1.0rem;
+		
+	}
 
-.github-link {
-	position: absolute;
-	height: 25%;
-	width: auto;
-	left: 0.1rem;
-	top: 1.2rem;
-}
+	.github-link {
+		position: absolute;
+		height: 35%;
+		width: auto;
+		right: 2.5rem;
+		top: 1.4rem;
+		
+	}
 
-.linkedin-link {
-	position: absolute;
-	height: 35%;
-	width: auto;
-	left: 2rem;
-	top: 1rem;
-}
+	.linkedin-link {
+		position: absolute;
+		height: 50%;
+		width: auto;
+		right: 6rem;
+		top: 1rem;
+		
+	}
+
+
 
 /******************************
  Bottom Right Border Container 
 ******************************/
 .bottom-right-container {
 	position: absolute;
-	width: 100rem;
-	height: 100rem;
-	top: 20rem;
-	left: 57rem;
+	width: 100%;
+	height: 100%;
+	bottom: 0rem;
+	right: 0rem;
+
 }
 
-.bottom-right-border {
-	position: absolute;
-	width: 10%;
-	height: auto;
+	.bottom-right-border {
+		position: absolute;
+		width: 10%;
+		height: auto;
+		bottom: 11rem;
+		right: 10rem;
+		
+	}
+
+	.projects-border {
+		position: absolute;
+		width: 10%;
+		height: auto;
+		bottom: 14rem;
+		right: 25rem;
+
+	}
+
+	.projects-header {
+		position: absolute;
+		font-family: 'CaskaydiaCoveNerdFont';
+		font-size: 26px;
+		color: white;
+		bottom: 22.5rem;
+		right: 26rem;
+	}
+
+		.dark-oura {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 24px;
+			bottom: 19rem;
+			right: 26rem;
+			color: white;
+			z-index: 1000;
+			text-decoration: none;
+		}
+
+		.branch-library {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 24px;
+			color: white;
+			bottom: 17rem;
+			right: 22.8rem;
+			z-index: 1000;
+			text-decoration: none;
+		}	
+
+
+
+		.dbt-pipeline {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 24px;
+			color: white;
+			bottom: 15rem;
+			right: 15.2rem;
+			z-index: 1000;
+			text-decoration: none;
+
+		}
+
+		.retail-pipeline {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 24px;
+			color: white;
+			bottom: 13rem;
+			right: 12.5rem;
+			z-index: 1000;
+			text-decoration: none;
+
+		}
+
+
+
 }
 
-.projects-border {
+
+
+/***********************************************************************
+							Styles for Mobile 
+***********************************************************************/
+@media (max-width: 414px) {
+ 
+
+App {
+	display: flex;
+	padding: 0px;
 	position: absolute;
-	width: 16%;
-	height: auto;
-	bottom: 95rem;
-	right: 105rem;
+	margin: 0;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
-.projects-header {
-	position: absolute;
+@font-face {
 	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 24px;
-	color: white;
-	bottom: 108rem;
-	right: 110rem;
+	src: url('../../public/fonts/CascadiaCode(1)/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
 }
 
-.dark-oura {
-	position: absolute;
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 18px;
-	bottom: 104.5rem;
-	left: -15rem;
-	color: white;
-	z-index: 1000;
-	text-decoration: none;
+body {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	background: #1b2430;
+	background-size: cover;
 }
 
-.branch-library {
-	position: absolute;
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 18px;
-	color: white;
-	bottom: 102.5rem;
-	left: -15rem;
-	z-index: 1000;
-	text-decoration: none;
-}
 
-.dbt-pipeline {
-	position: absolute;
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 18px;
-	color: white;
-	bottom: 100.5rem;
-	left: -15rem;
-	z-index: 1000;
-	text-decoration: none;
-}
-
-.retail-pipeline {
-	position: absolute;
-	font-family: 'CaskaydiaCoveNerdFont';
-	font-size: 18px;
-	color: white;
-	bottom: 98.5rem;
-	left: -15rem;
-	z-index: 1000;
-	text-decoration: none;
-}
 
 /******************************
-		Media Queries
+   Top left Border Container 
 ******************************/
-@media (max-width: 1200px) {
-	.top-left-container, .bottom-right-container {
-		width: 80rem;
-		height: 80rem;
-	}
+.top-left-container {
+	position: absolute;
+	width: 100%;
+	top: 0rem;
+	height: auto;
 
-	.bio-container {
-		width: 40rem;
-		height: 60rem;
-		top: 8rem;
-		left: 4rem;
-	}
-
-	.links-container {
-		left: 50rem;
-	}
-
-	.projects-border {
-		bottom: 85rem;
-		right: 90rem;
-	}
-
-	.projects-header {
-		bottom: 98rem;
-		right: 95rem;
-	}
-
-	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
-		font-size: 16px;
-		bottom: calc(85rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
-	}
 }
 
-@media (max-width: 992px) {
-	.top-left-container, .bottom-right-container {
-		width: 60rem;
-		height: 60rem;
-	}
-
-	.bio-container {
-		width: 30rem;
-		height: 50rem;
-		top: 7rem;
-		left: 3rem;
-	}
-
-	.links-container {
-		left: 40rem;
-	}
-
-	.projects-border {
-		bottom: 75rem;
-		right: 75rem;
-	}
-
-	.projects-header {
-		bottom: 88rem;
-		right: 80rem;
-	}
-
-	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
-		font-size: 14px;
-		bottom: calc(75rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
-	}
+.top-left-border {
+	position: absolute;
+	width: 40%;
+	height: auto;
+	top: 0.5rem;
+	left: 0.5rem;
 }
 
-@media (max-width: 768px) {
-	.top-left-container, .bottom-right-container {
-		width: 50rem;
-		height: 50rem;
+.typewriter {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 8px;
+	top: 2.5rem;
+	left: 2.5rem;
+	position: absolute;
+	color: white;
+}
+
+
+
+/******************************
+		     Bio
+******************************/
+.bio-container {
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	top: 20%;
+
+}
+
+	.bio-header {
+		font-family: 'CaskaydiaCoveNerdFont';
+		font-size: 30px;
+		position: absolute;
+		color: #9f73ab;
+		left: 2.5rem;
+		top: 2.5rem;
 	}
 
-	.bio-container {
-		width: 25rem;
-		height: 40rem;
-		top: 6rem;
-		left: 2rem;
-	}
-
-	.links-container {
-		left: 35rem;
-	}
-
-	.projects-border {
-		bottom: 65rem;
-		right: 65rem;
-	}
-
-	.projects-header {
-		bottom: 78rem;
-		right: 70rem;
-	}
-
-	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
+	.bio-text {
+		font-family: 'CaskaydiaCoveNerdFont';
 		font-size: 12px;
-		bottom: calc(65rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
+		width: 80%;
+		position: relative;
+		color: white;
+		top: 5rem;
+		left: 2.5rem;
 	}
+
+	.bio-line {
+		position: absolute;
+		height: 0%;
+		width: 0%;
+	}
+
+
+
+/******************************
+		 Social Links
+******************************/
+.links-container {
+	position: absolute;
+	width: 100%;
+	height: 10%;
+
 }
 
-@media (max-width: 576px) {
-	.top-left-container, .bottom-right-container {
-		width: 40rem;
-		height: 40rem;
+	.mail-link {
+		position: absolute;
+		height: 35.5%;
+		width: auto;
+		right: 4rem;
+		top: 1.0rem;
+		
 	}
 
-	.bio-container {
-		width: 20rem;
-		height: 30rem;
-		top: 5rem;
-		left: 1rem;
+	.github-link {
+		position: absolute;
+		height: 25%;
+		width: auto;
+		right: 1rem;
+		top: 1.2rem;
+		
 	}
 
-	.links-container {
-		left: 30rem;
+	.linkedin-link {
+		position: absolute;
+		height: 35%;
+		width: auto;
+		right: 2.4rem;
+		top: 1rem;
+		
+	}
+
+
+
+/******************************
+ Bottom Right Border Container 
+******************************/
+.bottom-right-container {
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	top: 22.0rem;
+	bottom: 0rem;
+
+}
+
+	.bottom-right-border {
+		position: absolute;
+		width: 40%;
+		right: 1.0rem;
+		bottom: 1rem;
+		
 	}
 
 	.projects-border {
-		bottom: 55rem;
-		right: 55rem;
+		position: absolute;
+		width: 30%;
+		bottom: 4.8rem;
+		left: 2.5rem;
+
 	}
 
 	.projects-header {
-		bottom: 68rem;
-		right: 60rem;
+		position: absolute;
+		font-family: 'CaskaydiaCoveNerdFont';
+		font-size: 18px;
+		color: #9f73ab;
+		bottom: 9.7rem;
+		left: 3.1rem;
 	}
 
-	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
-		font-size: 10px;
-		bottom: calc(55rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
-	}
+		.dark-oura {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 14px;
+			bottom: 8rem;
+			left: 3.4rem;
+			color: white;
+			z-index: 1000;
+			text-decoration: none;
+		}
+
+		.branch-library {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 14px;
+			color: white;
+			bottom: 6rem;
+			left: 3.4rem;
+			z-index: 1000;
+			text-decoration: none;
+		}	
+
+
+
+		.dbt-pipeline {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 14px;
+			color: white;
+			bottom: 4rem;
+			left: 3.4rem;
+			z-index: 1000;
+			text-decoration: none;
+
+		}
+
+		.retail-pipeline {
+			position: absolute;
+			font-family: 'CaskaydiaCoveNerdFont';
+			font-size: 14px;
+			color: white;
+			bottom: 2rem;
+			left: 3.4rem;
+			z-index: 1000;
+			text-decoration: none;
+
+		}
+
+
+
 }
-

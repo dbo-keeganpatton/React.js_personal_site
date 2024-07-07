@@ -12,7 +12,7 @@ import projectsCorner from "../assets/projects_border.svg"
 import gitHubIcon from "../assets/gitHub.svg"
 import linkedInIcon from "../assets/linkedin.svg"
 import webMailIcon from "../assets/mail.svg"
-
+import projectsLine from "../assets/skills_underline.svg"
 
 function MainPage() {
   return (
@@ -46,15 +46,11 @@ function MainPage() {
 					<img src={bioLine} alt="" className="bio-line"/>
 					<p className="bio-text">
 					
-					I am a Senior Data Analyst working for the largest retailer in the world, Walmart.<br/>
-					In this role I utilize my knowledge of Data Structures, ETL Pipelines,<br/> 
-					Process Automation, Business Intelligence and Data Visualization to <br/>
-					help drive value for our customers and enable them to <br/> 
-					Save Money and Live Better.
+					I currently work as a Senior Data Analyst for the largest retailer in the world, Walmart.<br/>
 					<br/>
+					In my personal time I'm an avid skateboarder and love to experiment with new technologies and develop my technical skillsets.<br/>
 					<br/>
-					In my free time I am an avid skateboarder and love learning new <br/>
-					skills and technologies to expand my technical expertise.
+					Check out my project portfolio here to see some of my work, and feel free to connect with me on linkedIn or message me privately here.
 
 					</p>
 
