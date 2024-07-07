@@ -1,3 +1,4 @@
+
 /******************************
 	  App Style and Fonts 
 ******************************/
@@ -26,198 +27,314 @@ body {
 	background-size: cover;
 }
 
-
-
 /******************************
    Top left Border Container 
 ******************************/
 .top-left-container {
 	position: absolute;
-	width: 100.0rem;
-	height: 100.0rem;
-	top: 1.0rem;
-	left: 1.0rem;
+	width: 100rem;
+	height: 100rem;
+	top: 1rem;
+	left: 1rem;
 }
 
 .top-left-border {
 	position: absolute;
 	width: 5%;
 	height: auto;
-	top: 1.0rem;
-	left: 1.0rem;
+	top: 1rem;
+	left: 1rem;
 }
 
 .typewriter {
 	font-family: 'CaskaydiaCoveNerdFont';
 	font-size: 10px;
 	position: absolute;
-	left: 4.0rem;
-	top: 3.0rem;
+	left: 4rem;
+	top: 3rem;
 	color: white;
 }
-
-
 
 /******************************
 		     Bio
 ******************************/
 .bio-container {
 	position: absolute;
-	width: 50.0rem;
-	height: 70.0rem;
+	width: 50rem;
+	height: 70rem;
 	top: 9.5rem;
-	left: 5.0rem;
-
+	left: 5rem;
 }
 
-	.bio-header {
-		font-family: 'CaskaydiaCoveNerdFont';
-		font-size: 50px;
-		position: absolute;
-		color: #9f73ab;
-	}
+.bio-header {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 50px;
+	position: absolute;
+	color: #9f73ab;
+}
 
-	.bio-text {
-		font-family: 'CaskaydiaCoveNerdFont';
-		font-size: 13px;
-		position: absolute;
-		color: white;
-		top: 4.8rem;
-		left: 0.5rem;
-	}
+.bio-text {
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 13px;
+	position: absolute;
+	color: white;
+	top: 4.8rem;
+	left: 0.5rem;
+}
 
-	.bio-line {
-		position: absolute;
-		height: 22%;
-		width: auto;
-		right: 36.2rem;
-		top: 0.5rem;
-	}
-
-
+.bio-line {
+	position: absolute;
+	height: 22%;
+	width: auto;
+	right: 36.2rem;
+	top: 0.5rem;
+}
 
 /******************************
 		 Social Links
 ******************************/
 .links-container {
 	position: absolute;
-	width: 5.0rem;
-	height: 5.0rem;
-	top: 3.0rem;
+	width: 5rem;
+	height: 5rem;
+	top: 3rem;
 	left: 60rem;
-
 }
 
-	.mail-link {
-		position: absolute;
-		height: 35.5%;
-		width: auto;
-		left: -2.4rem;
-		top: 1.0rem;
-		
-	}
+.mail-link {
+	position: absolute;
+	height: 35.5%;
+	width: auto;
+	left: -2.4rem;
+	top: 1rem;
+}
 
-	.github-link {
-		position: absolute;
-		height: 25%;
-		width: auto;
-		left: 0.1rem;
-		top: 1.2rem;
-		
-	}
+.github-link {
+	position: absolute;
+	height: 25%;
+	width: auto;
+	left: 0.1rem;
+	top: 1.2rem;
+}
 
-	.linkedin-link {
-		position: absolute;
-		height: 35%;
-		width: auto;
-		left: 2rem;
-		top: 1rem;
-		
-	}
-
-
+.linkedin-link {
+	position: absolute;
+	height: 35%;
+	width: auto;
+	left: 2rem;
+	top: 1rem;
+}
 
 /******************************
  Bottom Right Border Container 
 ******************************/
 .bottom-right-container {
 	position: absolute;
-	width: 100.0rem;
-	height: 100.0rem;
-	top: 20.0rem;
-	left: 56.99rem;
-
+	width: 100rem;
+	height: 100rem;
+	top: 20rem;
+	left: 57rem;
 }
 
-	.bottom-right-border {
-		position: absolute;
-		width: 10%;
-		height: auto;
-		
+.bottom-right-border {
+	position: absolute;
+	width: 10%;
+	height: auto;
+}
+
+.projects-border {
+	position: absolute;
+	width: 16%;
+	height: auto;
+	bottom: 95rem;
+	right: 105rem;
+}
+
+.projects-header {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 24px;
+	color: white;
+	bottom: 108rem;
+	right: 110rem;
+}
+
+.dark-oura {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 18px;
+	bottom: 104.5rem;
+	left: -15rem;
+	color: white;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+.branch-library {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 18px;
+	color: white;
+	bottom: 102.5rem;
+	left: -15rem;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+.dbt-pipeline {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 18px;
+	color: white;
+	bottom: 100.5rem;
+	left: -15rem;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+.retail-pipeline {
+	position: absolute;
+	font-family: 'CaskaydiaCoveNerdFont';
+	font-size: 18px;
+	color: white;
+	bottom: 98.5rem;
+	left: -15rem;
+	z-index: 1000;
+	text-decoration: none;
+}
+
+/******************************
+		Media Queries
+******************************/
+@media (max-width: 1200px) {
+	.top-left-container, .bottom-right-container {
+		width: 80rem;
+		height: 80rem;
+	}
+
+	.bio-container {
+		width: 40rem;
+		height: 60rem;
+		top: 8rem;
+		left: 4rem;
+	}
+
+	.links-container {
+		left: 50rem;
 	}
 
 	.projects-border {
-		position: absolute;
-		width: 16%;
-		height: auto;
-		bottom: 95rem;
-		right: 105rem;
-
+		bottom: 85rem;
+		right: 90rem;
 	}
 
 	.projects-header {
-		position: absolute;
-		font-family: 'CaskaydiaCoveNerdFont';
-		font-size: 24px;
-		color: white;
-		bottom: 108rem;
-		right: 110rem;
+		bottom: 98rem;
+		right: 95rem;
 	}
 
-		.dark-oura {
-			position: absolute;
-			font-family: 'CaskaydiaCoveNerdFont';
-			font-size: 18px;
-			bottom: 104.5rem;
-			left: -15rem;
-			color: white;
-			z-index: 1000;
-			text-decoration: none;
-		}
+	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
+		font-size: 16px;
+		bottom: calc(85rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
+	}
+}
 
-		.branch-library {
-			position: absolute;
-			font-family: 'CaskaydiaCoveNerdFont';
-			font-size: 18px;
-			color: white;
-			bottom: 102.5rem;
-			left: -15rem;
-			z-index: 1000;
-			text-decoration: none;
-		}	
+@media (max-width: 992px) {
+	.top-left-container, .bottom-right-container {
+		width: 60rem;
+		height: 60rem;
+	}
 
+	.bio-container {
+		width: 30rem;
+		height: 50rem;
+		top: 7rem;
+		left: 3rem;
+	}
 
+	.links-container {
+		left: 40rem;
+	}
 
-		.dbt-pipeline {
-			position: absolute;
-			font-family: 'CaskaydiaCoveNerdFont';
-			font-size: 18px;
-			color: white;
-			bottom: 100.5rem;
-			left: -15rem;
-			z-index: 1000;
-			text-decoration: none;
+	.projects-border {
+		bottom: 75rem;
+		right: 75rem;
+	}
 
-		}
+	.projects-header {
+		bottom: 88rem;
+		right: 80rem;
+	}
 
-		.retail-pipeline {
-			position: absolute;
-			font-family: 'CaskaydiaCoveNerdFont';
-			font-size: 18px;
-			color: white;
-			bottom: 98.5rem;
-			left: -15rem;
-			z-index: 1000;
-			text-decoration: none;
+	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
+		font-size: 14px;
+		bottom: calc(75rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
+	}
+}
 
-		}
+@media (max-width: 768px) {
+	.top-left-container, .bottom-right-container {
+		width: 50rem;
+		height: 50rem;
+	}
+
+	.bio-container {
+		width: 25rem;
+		height: 40rem;
+		top: 6rem;
+		left: 2rem;
+	}
+
+	.links-container {
+		left: 35rem;
+	}
+
+	.projects-border {
+		bottom: 65rem;
+		right: 65rem;
+	}
+
+	.projects-header {
+		bottom: 78rem;
+		right: 70rem;
+	}
+
+	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
+		font-size: 12px;
+		bottom: calc(65rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
+	}
+}
+
+@media (max-width: 576px) {
+	.top-left-container, .bottom-right-container {
+		width: 40rem;
+		height: 40rem;
+	}
+
+	.bio-container {
+		width: 20rem;
+		height: 30rem;
+		top: 5rem;
+		left: 1rem;
+	}
+
+	.links-container {
+		left: 30rem;
+	}
+
+	.projects-border {
+		bottom: 55rem;
+		right: 55rem;
+	}
+
+	.projects-header {
+		bottom: 68rem;
+		right: 60rem;
+	}
+
+	.dark-oura, .branch-library, .dbt-pipeline, .retail-pipeline {
+		font-size: 10px;
+		bottom: calc(55rem - (100.5rem - 98.5rem)); /* Adjust for responsive bottom alignment */
+	}
+}
+
