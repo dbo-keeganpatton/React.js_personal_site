@@ -37,7 +37,7 @@ body {
    Top left Border Container 
 ******************************/
 .top-left-container {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	top: 0rem;
@@ -67,7 +67,7 @@ body {
 		     Bio
 ******************************/
 .bio-container {
-	position: absolute;
+	position: fixed;
 	width: 50%;
 	height: 50%;
 	top: 11rem;
@@ -106,7 +106,7 @@ body {
 		 Social Links
 ******************************/
 .links-container {
-	position: absolute;
+	position: fixed;
 	width: 15%;
 	height: 15%;
 	top: 0rem;
@@ -147,7 +147,7 @@ body {
  Bottom Right Border Container 
 ******************************/
 .bottom-right-container {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	bottom: 0rem;
