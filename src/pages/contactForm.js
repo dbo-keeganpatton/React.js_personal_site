@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 
 
 // Image Asset Imports 
-import topCorner from "../assets/corner.svg"
-import bottomCorner from "../assets/bottom_right_corner.svg"
 import returnArrow from "../assets/return.svg"
 
 
@@ -66,8 +64,6 @@ const ContactForm = () => {
 
 	return (
         <div className='body'>
-			
-			<img src={topCorner} alt="hello" className="top-left-border"/>
 			
 			<Link to="/">
 				<img src={returnArrow} alt="hello" className="return-arrow"/>
@@ -148,7 +144,6 @@ const ContactForm = () => {
                 </button>
             </form>
 
-			<img src={bottomCorner} alt="yes" className="bottom-right-border"/>
 
         </div>
     );

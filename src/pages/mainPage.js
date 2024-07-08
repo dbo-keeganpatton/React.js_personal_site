@@ -12,7 +12,6 @@ import projectsCorner from "../assets/projects_border.svg"
 import gitHubIcon from "../assets/gitHub.svg"
 import linkedInIcon from "../assets/linkedin.svg"
 import webMailIcon from "../assets/mail.svg"
-import projectsLine from "../assets/skills_underline.svg"
 
 function MainPage() {
   return (
@@ -31,18 +30,21 @@ function MainPage() {
 					<Link to="/contact">
 						<img src={webMailIcon} alt="" className='mail-link'/>
 					</Link>
+										<a href="https://www.linkedin.com/in/keeganpatton/" target="_blank" rel="noreferrer">
+						<img src={linkedInIcon} alt="linkedin" className="linkedin-link"/>
+					</a>
 					<a href="https://github.com/dbo-keeganpatton" target="_blank" rel="noreferrer">
 						<img src={gitHubIcon} alt="github" className="github-link"/>
 					</a>
-					<a href="https://www.linkedin.com/in/keeganpatton/" target="_blank" rel="noreferrer">
-						<img src={linkedInIcon} alt="linkedin" className="linkedin-link"/>
-					</a>
+
 				</div>
 
 				
 				{/* Bio */}
+				<div>
+				<h1 className='bio-header'>Welcome.</h1>
+				</div>
 				<div className='bio-container'>
-					<h1 className='bio-header'>Welcome.</h1>
 					<img src={bioLine} alt="" className="bio-line"/>
 					<p className="bio-text">
 					
@@ -62,20 +64,20 @@ function MainPage() {
 					<h1 className="projects-header">Projects</h1>
 					<img src={projectsCorner} alt="hello" className="projects-border"/>
 					
-								
-					<a href="https://oura-api-client.streamlit.app/" target="_blank" rel="noreferrer" className='dark-oura'>
-					Dark Oura
-					</a>
-					<a href="https://branchlibrary-8478c72f5159.herokuapp.com/" target="_blank" rel="noreferrer" className='branch-library'>
-					Branch Library
-					</a>
-					<a href="https://github.com/dbo-keeganpatton/thrasher_data_pipeline" target="_blank" rel="noreferrer" className='dbt-pipeline'>
-					Thrasher NLP Data Pipeline
-					</a>	
-					<a href="https://github.com/dbo-keeganpatton/retail_data_pipeline" target="_blank" rel="noreferrer" className='retail-pipeline'>
-					Automated Retail Data Pipeline
-					</a>	
-					
+					<div className='projects-grid'>				
+						<a href="https://oura-api-client.streamlit.app/" target="_blank" rel="noreferrer" className='dark-oura'>
+						Dark Oura
+						</a>
+						<a href="https://branchlibrary-8478c72f5159.herokuapp.com/" target="_blank" rel="noreferrer" className='branch-library'>
+						Branch Library
+						</a>
+						<a href="https://github.com/dbo-keeganpatton/thrasher_data_pipeline" target="_blank" rel="noreferrer" className='dbt-pipeline'>
+						Thrasher NLP Data Pipeline
+						</a>	
+						<a href="https://github.com/dbo-keeganpatton/retail_data_pipeline" target="_blank" rel="noreferrer" className='retail-pipeline'>
+						Automated Retail Data Pipeline
+						</a>	
+					</div>	
 
 					<img src={bottomCorner} alt="yes" className="bottom-right-border"/>
 				
