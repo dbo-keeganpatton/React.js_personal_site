@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect';
 function Typewriters() {
 	return (
 		<div className="typewriter">
-			<h1>
 				<Typewriter
 					options={{
 						autoStart: true,
@@ -13,7 +12,6 @@ function Typewriters() {
 						strings: ["Hi, I'm Keegan..."]
 					}}
 				/>
-			</h1>
 		</div>
 	)
 }
