@@ -11,9 +11,11 @@ import gitHubIcon from "../assets/gitHub.svg";
 
 
 // Projects
-const projectsList = [
-	1,2,3, 4
-]
+import { p1, p2, p3, p4 } from "../components/projects.js";
+
+// This array will be used as an iterable to create... 
+// Paper Squares for routing per project...
+const projectsList = [ p1, p2, p3, p4 ]
 
 
 
@@ -153,16 +155,18 @@ function MainPage() {
 					pt: {xs: 5, sm: 8, md: 10, lg: 5, xl: 10  }
 
 				}}>
-
-				{projectsList.map((project) => (
-					<Paper elevation={6} sx={{
-							bgcolor: "#1b2430",
-							margin: "2%"
-					}}>
-						<Typography variant="h2">{project}</Typography>	
-					</Paper>
-				))}
+					
 				
+					{projectsList.map((project) => (
+						<Paper elevation={6} sx={{
+								bgcolor: "#1b2430",
+								margin: "2%"
+						}}>
+							<Typography variant="h2">{project}</Typography>	
+						</Paper>
+					))}
+			
+
 				</Box>
 					
 			</Box>

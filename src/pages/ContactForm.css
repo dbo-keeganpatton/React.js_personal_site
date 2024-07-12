@@ -2,10 +2,15 @@
 		Main Styles 
 ******************************/
 @media (min-width: 900px) {
+	body {
+		min-width: 100%;
+		min-height: 100%;
+		background-color: #1b2430;
+	}
+
 	.body {
 		display: grid;
 		grid-template-columns: 1fr 5fr;
-		background-color: "#1b2430";
 	}
 
 	.return-arrow {
@@ -112,20 +117,24 @@
 
 }
 
+/* Mobile */
+@media (max-width: 899px) {
 
-@media (max-width: 756px) {
+	body {
+		min-width: 100%;
+		min-height: 100%;
+		background-color: #1b2430;
+	}
+
     .body {
         display: flex; 
         flex-direction: column; 
         align-items: center; 
         justify-content: center; 
-        min-width: 100%;
-        min-height: 100vh; 
         padding: 20px; 
         box-sizing: border-box;
-		background-color: "#1b2430";
     }
-
+	
     .return-arrow {
         width: 20%;
         margin-bottom: 200%; 
@@ -138,7 +147,7 @@
         justify-content: center;
         align-items: center; 
         max-width: 400px;
-		margin-top: -150%;
+		margin-top: -100%;
 		margin-right: 5%;
     }
 

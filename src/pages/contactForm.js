@@ -69,7 +69,7 @@ const ContactForm = () => {
 				<img src={returnArrow} alt="hello" className="return-arrow"/>
 			</Link>
 
-			<form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
+			<form id='contact-form'  onSubmit={handleSubmit(onSubmit)} noValidate>
                 {alertInfo.display && (
                     <div className={`alert alert-${alertInfo.type} alert-dismissible`} role='alert'>
                         {alertInfo.message}
