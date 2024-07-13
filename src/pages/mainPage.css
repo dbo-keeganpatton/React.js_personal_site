@@ -1,0 +1,12 @@
+.carousel-item {
+    transition: transform 0.6s ease; /* Adjust timing and easing as needed */
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    transform: translateX(0); /* Ensures smooth transition between slides */
+}
+
+.carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right, .carousel-item.active {
+    transform: translateX(0); /* Fixes bug where slides not updating correctly */
+}
+

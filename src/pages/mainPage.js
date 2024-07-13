@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Grid, Typography, Box, Paper } from "@mui/material";
 import Typewriters from "../components/typewriter.js";
 import { Link } from 'react-router-dom';
+import { Carousel, CarouselItem } from 'react-bootstrap';
+import "./mainPage.css"
 
 // Images
 import topLeftBorder from "../assets/LeftCorner.svg";
@@ -157,15 +159,19 @@ function MainPage() {
 				}}>
 					
 				
-					{projectsList.map((project) => (
-						<Paper elevation={6} sx={{
-								bgcolor: "#1b2430",
-								margin: "2%"
-						}}>
-							<Typography variant="h2">{project}</Typography>	
-						</Paper>
-					))}
+					<Carousel slide={true}>
+						{projectsList.map((project, index) => (
+							<CarouselItem key={index} interval={1500}>
+								<Paper elevation={6} sx={{
+										bgcolor: "#1b2430",
+										margin: "2%"	
+								}}>
+									<Typography variant="h2">{project}</Typography>	
+								</Paper>
+							</CarouselItem>
+						))}
 			
+					</Carousel>
 
 				</Box>
 					
