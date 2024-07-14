@@ -1,9 +1,8 @@
 import React from 'react';
-import { Container, Grid, Typography, Box, Paper } from "@mui/material";
+import { Container, Grid, Typography, Box  } from "@mui/material";
 import Typewriters from "../components/typewriter.js";
 import { Link } from 'react-router-dom';
-import { Carousel, CarouselItem } from 'react-bootstrap';
-import "./mainPage.css"
+import CustomCarousel from '../components/carousel.js';
 
 // Images
 import topLeftBorder from "../assets/LeftCorner.svg";
@@ -50,19 +49,19 @@ function MainPage() {
 					flexDirection: 'row', 
 					justifyContent: 'space-between',
 					alignContent: 'center',
-					marginRight: "-5%",
+					marginRight: "-10%",
 					paddingTop: "2%",
 					width: { xs: "40%", sm: "30%", md: "30%", lg: "30%", xl: '30%' }
 					
 				  }}>
 							<Link to="/contact">
-								<img src={webMailIcon} style={{ width: '60%', padding: '0 5px' }} alt="Web Mail Icon" />
+								<img src={webMailIcon} style={{ width: '60%', padding: '0 1px' }} alt="Web Mail Icon" />
 							</Link>
 							<a href="https://www.linkedin.com/in/keeganpatton/" target="_blank" rel="noreferrer">
-								<img src={linkedInIcon} style={{ width: '46%', padding: '0 5px' }} alt="LinkedIn Icon" />
+								<img src={linkedInIcon} style={{ width: '46%', padding: '0 0px' }} j alt="LinkedIn Icon" />
 							</a>
 							<a href="https://github.com/dbo-keeganpatton" target="_blank" rel="noreferrer">
-								<img src={gitHubIcon} style={{ width: '55%', padding: '0 5px', marginLeft: '-30%' }} alt="GitHub Icon" />
+								<img src={gitHubIcon} style={{ width: '55%', padding: '0 0px', marginLeft: '-30%' }} alt="GitHub Icon" />
 							</a>
 				</Box>
 
@@ -141,12 +140,8 @@ function MainPage() {
 				</Grid>
 				
 				{/*
-					I probably need to make a few templates that are their own JSX...
-					for each project and then import those as vars to iterate with...
-					This will be the best approach I think...
-
-					You can see I am using map (for loop, syntax lol) to create a <Paper>...
-					object for each value, I think this will save some clutter in the main JSX here...
+					Moved Carousel logic to a component file for easier management...
+					Check that out if changing..
 				*/}
 				<Box sx={{ 
 					display: "flex", 
@@ -157,22 +152,9 @@ function MainPage() {
 					pt: {xs: 5, sm: 8, md: 10, lg: 5, xl: 10  }
 
 				}}>
-					
-				
-					<Carousel slide={true}>
-						{projectsList.map((project, index) => (
-							<CarouselItem key={index} interval={1500}>
-								<Paper elevation={6} sx={{
-										bgcolor: "#1b2430",
-										margin: "2%"	
-								}}>
-									<Typography variant="h2">{project}</Typography>	
-								</Paper>
-							</CarouselItem>
-						))}
-			
-					</Carousel>
-
+					<Typography variant="h6" sx={{color: "#9f73ab", alignSelf: "center" }}> Projects </Typography>
+					<Typography sx={{color: "#D2D4D5", fontSize: 14, alignSelf: "center" }}> click the title to view </Typography>
+					<div><CustomCarousel items={projectsList} /></div>
 				</Box>
 					
 			</Box>

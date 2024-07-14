@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Container, List, ListItem, Box, Button, ThemeProvider } from "@mui/material";
+import { Typography, Container, List, ListItem, Button, ThemeProvider } from "@mui/material";
 import { theme } from "../pages/p1.js"
 import { Link } from "react-router-dom";
 
@@ -36,7 +36,7 @@ const p1 = (
 					fontSize: 14, 
 					height: 25,
 					p: "10px",
-					m: "10px"
+					m: "10px",
 			}}> 
 				Branch Library 
 			</Button>
@@ -62,10 +62,34 @@ const p1 = (
 
 
 const p2 = (
-	<Typography variant="h1" sx={HeaderStyle}>
-	This is the second project
-	</Typography>
-);
+	<ThemeProvider theme={theme}>
+	<Container>
+		
+		<Link to="p2" sx={{ p: "10px" }}>
+			<Button variant="outlined" size="small" sx={{ 
+					fontSize: 14, 
+					height: 25,
+					p: "10px",
+					m: "10px",
+			}}> 
+				Dark Oura 
+			</Button>
+		</Link>
+		
+		<Typography variant="h2" sx={ParagraphStyle}> 
+			Automated Self Service Analytics for Oura Ring Biometrics.
+		</Typography>
+		
+		<List sx={ListStyle}>
+			<ListItem> // Process Automation </ListItem>
+			<ListItem> // Data Visualization </ListItem>
+			<ListItem> // ETL Processing </ListItem>
+			<ListItem> // Preprocessing </ListItem>
+
+		</List>
+	
+	</Container>
+	</ThemeProvider>);
 
 
 
