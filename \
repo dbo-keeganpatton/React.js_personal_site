@@ -106,10 +106,10 @@ const p3 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>	
-		<Link to="p3" sx={{ p: "10px" }}>
+		<Link to="p2" sx={{ p: "10px" }}>
 			<Button variant="outlined" size="small" sx={{ 
 					fontSize: 14,
-					height: {xs: 50, md: 25},
+					height: 25,
 					p: "10px",
 					m: "10px",
 			}}> 
@@ -143,14 +143,14 @@ const p4 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>	
-		<Link to="p4" sx={{ p: "10px" }}>
+		<Link to="p2" sx={{ p: "10px" }}>
 			<Button variant="outlined" size="small" sx={{ 
 					fontSize: 14,
 					height: {xs: 45, md: 35},
 					p: "10px",
 					m: "10px",
 			}}> 
-				NLP Data Pipeline	
+				Natural Language Processing Pipeline	
 			</Button>
 		</Link>
 		</Box>
@@ -162,11 +162,10 @@ const p4 = (
 	
 		<Typography>
 		<List sx={ListStyle}>
-			<ListItem> // Natural Language Processing </ListItem>
-			<ListItem> // Data Orchestration </ListItem>
-			<ListItem> // Data Warehousing </ListItem>
-			<ListItem> // Text Mining </ListItem>
-			<ListItem> // Automation </ListItem>
+			<ListItem> // AWS (EC2, RDS, Secret Manager) </ListItem>
+			<ListItem> // Web Automation & HTML Parsing </ListItem>
+			<ListItem> // Data Visualization (Streamlit) </ListItem>
+			<ListItem> // Linux </ListItem>
 
 		</List>
 		</Typography>
