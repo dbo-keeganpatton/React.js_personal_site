@@ -5,12 +5,6 @@ import { Link } from "react-router-dom";
 
 
 {/* Styles */} 
-const HeaderStyle = { 
-	color: "#9f73ab",
-	fontSize: { xs: 15, sm: 20, md: 20, lg: 20, xl: 20 },
-	pt: 1
-}
-
 const ParagraphStyle = { 
 	color: "#D2D4D5",
 	fontSize: { xs: 15, sm: 20, md: 20, lg: 20, xl: 20 },
