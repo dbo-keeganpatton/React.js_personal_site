@@ -53,9 +53,13 @@ const p1 = (
 		</List>
 
 		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
-			<Button  size="large" > 
-				Learn More 
-			</Button>
+		
+			<Link to="P1">
+				<Button  size="large" > 
+					Learn More 
+				</Button>
+			</Link>
+
 		</Box>
 
 		</Typography>
@@ -93,9 +97,13 @@ const p2 = (
 		</List>
 		
 		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
-			<Button  size="large" > 
-				Learn More 
-			</Button>
+			
+			<Link to="P2">
+				<Button  size="large" > 
+					Learn More 
+				</Button>
+			</Link>
+		
 		</Box>
 
 		</Typography>
@@ -131,9 +139,13 @@ const p3 = (
 		</List>
 		
 		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
-			<Button  size="large" > 
-				Learn More 
-			</Button>
+			
+			<Link to="P3">
+				<Button  size="large" > 
+					Learn More 
+				</Button>
+			</Link>
+
 		</Box>
 
 		</Typography>
@@ -172,9 +184,13 @@ const p4 = (
 		</List>
 		
 		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
-			<Button  size="large" > 
-				Learn More 
-			</Button>
+				
+			<Link to="P4">
+				<Button  size="large" > 
+					Learn More 
+				</Button>
+			</Link>
+
 		</Box>
 
 		</Typography>
