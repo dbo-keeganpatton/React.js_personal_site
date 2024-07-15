@@ -32,16 +32,11 @@ const p1 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>
-		<Link to="p1" sx={{ p: "10px" }}>
-			<Button variant="outlined" size="small" sx={{ 
-					fontSize: 14, 
-					height: 25,
-					p: "10px",
-					m: "10px",
-			}}> 
+			
+			<Typography variant="h6" sx={{color: "#c6d0f5", p: 1 }}> 
 				Branch Library 
-			</Button>
-		</Link>
+			</Typography>
+		
 		</Box>
 
 		<Typography variant="h2" sx={ParagraphStyle}> 
@@ -56,6 +51,13 @@ const p1 = (
 			<ListItem> // Jinja </ListItem>
 
 		</List>
+
+		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
+			<Button  size="large" > 
+				Learn More 
+			</Button>
+		</Box>
+
 		</Typography>
 
 	</Container>
@@ -70,16 +72,11 @@ const p2 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>
-		<Link to="p2" sx={{ p: "10px" }}>
-			<Button variant="outlined" size="small" sx={{ 
-					fontSize: 14, 
-					height: 25,
-					p: "10px",
-					m: "10px",
-			}}> 
+			
+			<Typography variant="h6" sx={{color: "#c6d0f5", p: 1 }}> 
 				Dark Oura 
-			</Button>
-		</Link>
+			</Typography>
+
 		</Box>	
 		
 		<Typography variant="h2" sx={ParagraphStyle}> 
@@ -94,6 +91,13 @@ const p2 = (
 			<ListItem> // Preprocessing </ListItem>
 
 		</List>
+		
+		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
+			<Button  size="large" > 
+				Learn More 
+			</Button>
+		</Box>
+
 		</Typography>
 
 	</Container>
@@ -106,16 +110,11 @@ const p3 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>	
-		<Link to="p3" sx={{ p: "10px" }}>
-			<Button variant="outlined" size="small" sx={{ 
-					fontSize: 14,
-					height: {xs: 50, md: 25},
-					p: "10px",
-					m: "10px",
-			}}> 
+			
+			<Typography variant="h6" sx={{color: "#c6d0f5", p: 1 }}> 
 				AWS Web Scraping Pipeline 
-			</Button>
-		</Link>
+			</Typography>
+		
 		</Box>
 		
 		<Typography variant="h2" sx={ParagraphStyle}> 
@@ -130,6 +129,13 @@ const p3 = (
 			<ListItem> // Linux </ListItem>
 
 		</List>
+		
+		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
+			<Button  size="large" > 
+				Learn More 
+			</Button>
+		</Box>
+
 		</Typography>
 
 	</Container>
@@ -143,16 +149,11 @@ const p4 = (
 	<Container>
 		
 		<Box sx={{ display: "flex",  justifyContent: "center" }}>	
-		<Link to="p4" sx={{ p: "10px" }}>
-			<Button variant="outlined" size="small" sx={{ 
-					fontSize: 14,
-					height: {xs: 45, md: 35},
-					p: "10px",
-					m: "10px",
-			}}> 
+		
+			<Typography variant="h6" sx={{color: "#c6d0f5", p: 1 }}> 
 				NLP Data Pipeline	
-			</Button>
-		</Link>
+			</Typography>
+		
 		</Box>
 		
 		<Typography variant="h2" sx={ParagraphStyle}> 
@@ -169,6 +170,13 @@ const p4 = (
 			<ListItem> // Automation </ListItem>
 
 		</List>
+		
+		<Box sx={{ display: "flex", justifyContent: "center", p: 2 }}>
+			<Button  size="large" > 
+				Learn More 
+			</Button>
+		</Box>
+
 		</Typography>
 
 	</Container>

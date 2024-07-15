@@ -152,8 +152,7 @@ function MainPage() {
 					pt: {xs: 5, sm: 8, md: 10, lg: 5, xl: 10  }
 
 				}}>
-					<Typography variant="h6" sx={{color: "#9f73ab", alignSelf: "center" }}> Projects </Typography>
-					<Typography sx={{color: "#D2D4D5", fontSize: 14, alignSelf: "center" }}> click the title to view </Typography>
+					<Typography variant="h5" sx={{color: "#9f73ab", alignSelf: "center", p: 1 }}> Projects </Typography>
 					<div><CustomCarousel items={projectsList} /></div>
 				</Box>
 					
