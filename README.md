@@ -8,6 +8,6 @@ as much CSS as possible. This will be a work-in-progress indefinitely as I add p
 and new features.
 
 
-Live site can be found [here](https://www.keeganpatton.dev/).
+Live site can be found [here](https://www.keeganpatton.dev/)!
 
 ![alt text](./src/assets/family.jpg)
