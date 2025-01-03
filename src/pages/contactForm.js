@@ -50,10 +50,10 @@ const ContactForm = () => {
                 process.env.REACT_APP_EMAILJS_PUBLIC_KEY
             );
 
-            toggleAlert('Form submission was successful!', 'success');
+            toggleAlert('Thank you for your Email! I will reply as soon as I can.', 'success');
         } catch (e) {
             console.error(e);
-            toggleAlert('Uh oh. Something went wrong.', 'danger');
+            toggleAlert("I'm sorry but your email could not be sent, this is likely not your fault :(", 'danger');
         } finally {
             setDisabled(false);
             reset();
